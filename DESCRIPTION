@@ -1,0 +1,25 @@
+Package: mvlazy
+Title: Convenience functions for quickly visualizing macroeconomic data
+Version: 0.1.0
+Authors@R: 
+    person("Benjamin", "Peeters", 
+           email = "benjaminpeeters@protonmail.com",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Provides efficient shortcuts and convenience functions that combine
+    functionality from other macroverse packages. Offers streamlined workflows
+    for common analytical tasks including quick analysis templates and simplified
+    interfaces to multi-step operations.
+License: AGPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports:
+    mvcommon (>= 0.1.0),
+    pplot (>= 0.1.0),
+    macrodata (>= 0.1.0)
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
